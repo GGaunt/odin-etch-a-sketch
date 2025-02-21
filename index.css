@@ -1,0 +1,19 @@
+
+#sketchpad {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    border: 2px black;
+    width: 960px;
+    height: 960px;
+    background-color: cyan;
+}
+
+.square {
+    border: 1px white;
+    background-color: white;
+}
+
+.square:hover {
+    background-color: black;
+}

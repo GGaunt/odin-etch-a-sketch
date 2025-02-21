@@ -10,7 +10,7 @@
     <div class="container">
         <div class="title"><h1>Etch-E-Sketch</h1></div>
         <div class="content">
-            <div class="sketchpad"></div>
+            <div id="sketchpad"></div>
             <div class="buttons">
                 <button>Pen</button>
                 <button>Pencil</button>
@@ -19,9 +19,10 @@
             </div>
         </div>
         <div>
-            <input type="text" placeholder="Sketchpad" value="16" />
-            <button>Set Size</button>
+            <input id="gridInput" type="number" placeholder="Choose sketchpad size (Max 100)" value="16"/>
+            <button onclick="createSketchpad()">Set Size</button>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
